@@ -1,0 +1,9 @@
+Copyright (C) 2011 by Sweta Vajjhala (work jointly with David Ackerman)
+This code is free to use for purposes of studying, but it may NOT be submitted 
+as part of school assignments and may NOT be used for profit. If this 
+code is copied for any purpose, you must also include this notice.
+
+This is just a very simple example that demonstrates the producer-consumer model. Basically, any number of producers will 
+generate random numbers at given intervals of time and place them on a queue, while consumers will pull from that queue 
+and print out the number they got. Since producers and consumers are each on their own thread, the queue also needs to be 
+protected from simultaneously being written to and read from.
